@@ -1,0 +1,9 @@
+name: 'HELM AWS CLI'
+description: 'GitHub Action for AWS CLI with HELM'
+author: riderx
+branding:
+  icon: 'cloud'
+  color: 'orange'
+runs:
+  using: docker
+  image: Dockerfile
